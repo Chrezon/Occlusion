@@ -1,0 +1,6 @@
+{
+  "name": "Occlusion",
+  "version": "1.0",
+  "description": "Trying to build a Chrome Extension",
+  "manifest_version": 2
+}
