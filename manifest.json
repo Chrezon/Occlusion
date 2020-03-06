@@ -1,6 +1,12 @@
 {
-  "name": "Occlusion",
-  "version": "1.0",
-  "description": "Trying to build a Chrome Extension",
-  "manifest_version": 2
+    "name": "Occlusion",
+    "version": "1.0",
+    "description": "Trying to build a Chrome Extension",
+    "manifest_version": 2,
+    "browser_action": {
+        "default_popup": "popup.html"
+    },
+    "permissions": [
+        "activeTab"
+    ]
 }
